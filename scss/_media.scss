@@ -1,0 +1,129 @@
+@media (max-width: 960px) {
+    .about__inner{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .menu__inner{
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .about__images{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .about__content{
+        text-align: center;
+        margin-right: 0;
+    }
+    .footer{
+        &__inner{
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            
+        }
+        &__copy{
+            
+            font-size: 15px;
+            padding: 23px 10px;
+        }
+    }
+    .company{
+        margin-bottom: 20px;
+    }
+    .links{
+        margin-bottom: 20px;
+        &__inner{
+            text-align: left;
+        }
+    }
+    .contactus{
+        margin-bottom: 20px;
+    }
+    .services__bottom__item {
+        max-width: 240px;
+    }
+    
+    
+}
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 40px;
+        line-height: 55px;
+        margin-bottom: 10px;
+    }
+    .services{
+
+        &__top{
+            display: block;
+            text-align: center;
+            &-text{
+                text-align: center;
+                margin: 10px auto;
+            }
+            
+        }
+        &__bottom{
+            display: block;
+            text-align: center;
+            
+            &__item{
+                margin: 20px auto;
+                
+            }
+        }
+    }
+    .getintouch{
+        min-height: 300px;
+        &__title {
+            font-size: 24px;
+            line-height: 32px;
+            margin-bottom: 28px;
+        }
+    }
+    .newsletter{
+        &__content{
+            display: block;
+            
+        }
+        &__title{
+            text-align: center;
+            margin-bottom: 25px;
+            margin-right: 0;
+        }
+        &__form{
+            justify-content: center;
+        }
+       
+    }
+    
+}
+@media (max-width: 540px) {
+    .black_logo{
+        display: none;
+    }
+    .menu__inner{
+        justify-content: center;
+    }
+    .about__images{
+        display: none;
+    }
+    .about {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 390px){
+    .menu__list-link{
+        font-size: 12px;
+        padding: 0 6px;
+    }
+    .newsletter__input{
+        width: 70%;
+    }
+    .newsletter__btn{
+        padding: 11px 25px;
+    }
+}
+
